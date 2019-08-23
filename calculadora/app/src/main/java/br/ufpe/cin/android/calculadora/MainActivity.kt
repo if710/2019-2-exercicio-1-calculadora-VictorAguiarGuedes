@@ -133,7 +133,7 @@ class MainActivity : AppCompatActivity() {
 
             fun eat(charToEat: Char): Boolean {
                 while (ch == ' ') nextChar()
-                if (ch == charToEat) {;
+                if (ch == charToEat) {
                     nextChar()
                     return true
                 }
